@@ -5,21 +5,21 @@ class Rsclaw < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.5.20/rsclaw-v2026.5.20-aarch64-apple-darwin.tar.gz"
-      sha256 "f689e15955eacc6784871ebbb687b054da98fbc212866dceb7da4e0018828169"
+      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.6.15/rsclaw-v2026.6.15-aarch64-apple-darwin.tar.gz"
+      sha256 "4c22e3ecb9bc904bda8ea1ec55cdcadb892416645628435561a3919da2adde1b"
     else
-      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.5.20/rsclaw-v2026.5.20-x86_64-apple-darwin.tar.gz"
-      sha256 "d194f9f18907573d036820ddc6f70f230803cd13165b80dfb5fce8ac3f38e826"
+      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.6.15/rsclaw-v2026.6.15-x86_64-apple-darwin.tar.gz"
+      sha256 "91fb0b3cfb369cfe630f91a85adc44ba94e779369d3d938ec9d91fa69ddb8bab"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.5.20/rsclaw-v2026.5.20-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "52d3ee74eeba44dd8c9f10825ac4bf1f3eb1ab7dc96bd310a5e19c1abaf1313f"
+      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.6.15/rsclaw-v2026.6.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3ee1397a8f49883d237d7161ea52b4c14ca484acdf35931ec4d937d718bd66de"
     else
-      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.5.20/rsclaw-v2026.5.20-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2999a3ba8e6699354b2f11323c89aae2419c3235542c301f65cffbd7cd5d683b"
+      url "https://github.com/rsclaw-ai/rsclaw/releases/download/v2026.6.15/rsclaw-v2026.6.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f543d5eb2cf918d51da4975b799652bfe01dab8e22fd70e351bbecc568e1ec14"
     end
   end
 
