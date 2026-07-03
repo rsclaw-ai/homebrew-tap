@@ -1,13 +1,13 @@
 cask "rsclaw" do
-  version "2026.6.16"
+  version "2026.6.26"
 
   on_arm do
     url "https://github.com/rsclaw-ai/rsclaw/releases/download/app-v#{version}/RsClaw-v#{version}-aarch64-apple-darwin.dmg"
-    sha256 "b4a8a15eabb028ab56d63ed54f6241ddd06b11f73b8394eb7a123fa10e03ff30"
+    sha256 "ee1d2247e91e985f6a6178ab97c2654cacd34b6027f8e4eaf8be76fbe21ce6d5"
   end
   on_intel do
     url "https://github.com/rsclaw-ai/rsclaw/releases/download/app-v#{version}/RsClaw-v#{version}-x86_64-apple-darwin.dmg"
-    sha256 "d827d0cef9dd155654420ef867f30da23a920c960a16427c3e84b5bd5f0e9e54"
+    sha256 "725b96dc199c0ab3685eb4aec138f2846e86d6919438295cef1e3791c6931451"
   end
 
   name "RsClaw"
